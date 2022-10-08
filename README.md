@@ -1,24 +1,3 @@
-# README
+# Coil View Components
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![nikola-ai](https://user-images.githubusercontent.com/68130652/194727937-7a57144b-a416-4264-be1b-2b4e6af0dc6a.jpg)
