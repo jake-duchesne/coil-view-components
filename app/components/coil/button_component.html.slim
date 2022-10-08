@@ -1,0 +1,12 @@
+- if render_file_button?
+  label class="#{@override_classes} #{classes}" type="#{@button_type}"
+    = embedded_svg(@icon, { width: width, height: height, class: "invert-0 group-hover:invert" })
+    p class="ml-4 text-base uppercase" = @title
+    = content
+-else
+  = button_tag class: "#{classes} #{@override_classes}", data: @data, type: @button_type, onclick: @onclick, form: @form, name: @name, value: @value, disabled: @disabled, id: "#{button_id}"
+    - if @icon.nil?
+      p class="text-base uppercase #{@title_classes}" = @title
+    - else
+      = embedded_svg @icon, { width: width, height: height, class: "plus-icon invert group-hover:invert-0" }
+      p class="ml-4 text-base uppercase" = @title
